@@ -8,7 +8,7 @@ distancia = float(input("Informe a distância da sua viagem em Kms."))
 consumo = float(input("Informe a taxa de consumo do do carro (Xkm/L):"))
 
 #Cálculo
-gas =
+gas = distancia / consumo
 
 #Output
 print("O gasto de combustivel será de",gas, "litros para realizar uma viagem de", distancia, "Km.")
